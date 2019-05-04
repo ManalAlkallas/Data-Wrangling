@@ -14,4 +14,5 @@ TI am going to wrangle  a dataset of 19,000 online job posts from 2004 to 2015 t
       4. Inconsistent data
 
 2. **Tidiness**: Untidy data is commonly referred to as "messy" data. Messy data has issues with its structure.</br>
-    [More information about Tidy Data](http://www.jeannicholashould.com/tidy-data-in-python.html)
+    [More information about Tidy Data](http://www.jeannicholashould.com/tidy-data-in-python.html)</br>
+    [Jeff Leek: Non-tidy data](https://simplystatistics.org/2016/02/17/non-tidy-data/)
