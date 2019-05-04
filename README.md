@@ -1,5 +1,6 @@
 # Data-Wrangling
-Data wrangling is a core skill that everyone who works with data should be familiar with since so much of the world's data isn't clean.</br>
+Real-world data rarely comes clean. Using Python and its libraries, you will gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. This is called data wrangling. You will document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL. </br>
+
 Data wrangling is the Process of Gathering, Assessing and Cleaning Data before analysing it, visualisation or build predictive models using machine learning.
 
 **Dataset**
