@@ -4,6 +4,7 @@ Real-world data rarely comes clean. Using Python and its libraries, you will gat
 Data wrangling is the Process of **Gathering**, **Assessing** and **Cleaning** Data before analysing it, visualisation or build predictive models using machine learning.
 
 ## Gathering
+Gathering data is the first step in data wrangling. Gathering data varies from project to project. Sometimes you're just given data, or pointed to it. Sometimes you need to search for the right data for your project. 
 
 ## Assessing
 ### Properties of Data
