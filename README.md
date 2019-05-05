@@ -3,7 +3,10 @@ Real-world data rarely comes clean. Using Python and its libraries, you will gat
 
 Data wrangling is the Process of **Gathering**, **Assessing** and **Cleaning** Data before analysing it, visualisation or build predictive models using machine learning.
 
-## Properties of Data
+## Gathering
+
+## Assessing
+### Properties of Data
 1. **Quality**:  Low quality data is commonly referred to as dirty data. Dirty data has issues with its content.
     - Common data quality issues include:
       1. Missing data
@@ -25,3 +28,12 @@ TI am going to wrangle a dataset called **armenian-online-job-postings**. This d
     - Missing values (i.e. NaNs)
     - Inconsistent representations of values, specifically "As soon as possible" and other similar values to "ASAP" in the StartDate column for this dataset
     - A messy (i.e. untidy) dataset
+
+## Cleaning: Improving Quality and Tidiness
+**Improving Tidiness**
+Improving tidiness means transforming the dataset so that each variable is a column, each observation is a row, and each type of observational unit is a table. There are special functions in pandas that help us do that.
+**Programmatic Data Cleaning Process**
+- The programmatic data cleaning process:
+    - **Defining** means defining a data cleaning plan in writing, where we turn our assessments into defined cleaning tasks. This plan will also serve as an instruction list so others (or us in the future) can look at our work and reproduce it.
+    - **Coding** means translating these definitions to code and executing that code.
+    - **Testing** means testing our dataset, often using code, to make sure our cleaning operations worked.
