@@ -19,3 +19,9 @@ Data wrangling is the Process of **Gathering**, **Assessing** and **Cleaning** D
 **Dataset**
 
 TI am going to wrangle a dataset called **armenian-online-job-postings**. This dataset has 19,000 online job posts from 2004 to 2015 that were posted through an Armenian human resource portal. It is hosted on Kaggle.
+
+- The issues that identified in this dataset:
+    - Nondescriptive column headers
+    - Missing values (i.e. NaNs)
+    - Inconsistent representations of values, specifically "As soon as possible" and other similar values to "ASAP" in the StartDate column for this dataset
+    - A messy (i.e. untidy) dataset
