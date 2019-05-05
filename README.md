@@ -51,7 +51,7 @@ In practice, wrangling and EDA can and often do occur together.
 
 **ETL**
 Extract-transform-load process(ETL) differs from data wrangling in three main ways:
-    - The users are different
-    - The data is different
-    - The use cases are different</br>
-This article [Data Wrangling Versus ETL: What’s the Difference? by Wei Zhang explains these three differences well](https://tdwi.org/articles/2017/02/10/data-wrangling-and-etl-differences.aspx).
+  1. The users are different
+  2. The data is different
+  3. The use cases are different </br>
+[Data Wrangling Versus ETL: What’s the Difference?](https://tdwi.org/articles/2017/02/10/data-wrangling-and-etl-differences.aspx) by Wei Zhang explains these three differences well
