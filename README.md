@@ -5,6 +5,25 @@ Data wrangling is the Process of **Gathering**, **Assessing** and **Cleaning** D
 
 ## Gathering
 Gathering data is the first step in data wrangling. Gathering data varies from project to project. Sometimes you're just given data, or pointed to it. Sometimes you need to search for the right data for your project. 
+### File Structure Types
+
+1. **Flat File Structure**
+Flat files contain tabular data in plain text format with one data record per line and each record or line having one or more fields. These fields are separated by delimiters, like commas, tabs, or colons.
+
+**- Advantages of flat files include:**</br>
+    -They're text files and therefore human readable.
+    -Lightweight.
+    -Simple to understand.
+    -Software that can read/write text files is ubiquitous, like text editors.
+    -Great for small datasets.
+**- Disadvantages of flat files include:**
+    -Lack of standards.
+    -Data redundancy.
+    -Sharing data can be cumbersome.
+    -Not great for large datasets (see "When does small become large?" in the Cornell link in More Information).
+    
+Flat Files in Python
+Pandas has one main function for parsing flat files and it is read_csv.
 
 ## Assessing
 ### Properties of Data
