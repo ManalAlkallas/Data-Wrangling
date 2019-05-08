@@ -65,9 +65,15 @@ Downloading Files from the Internet
 
 
 The first thing you need to do is to make the soap. That means passing the pathto your HTML file into a file handles, then passing that fikle into the Beatutful Soup constructor; after importing the Beautiful library. 
-'''from bs4 import BeautifulSoup
-with open(' ') as file:
-    soup = BeautifulSoup(file, 'lxml')  ''
+```
+from bs4 import BeautifulSoup
+
+with open("index.html") as file:
+    soup = BeautifulSoup(file, 'lxml')
+
+soup = BeautifulSOup(""<html>data</html>)
+
+```    
 
 #### JSON files
 
