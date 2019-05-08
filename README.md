@@ -1,3 +1,21 @@
+## Table of Content
+
+- <b>Data-Wrangling</b>
+   1. [Gather](#) 
+        - [File Structure Formats]()
+            - [Flat files]()
+            - [HTML files]()
+            - [JSON files]()
+            - [HTML files]()
+            - [TXT files]()
+            - [Relational database files]()
+
+   2. [Assess](#)
+     
+   3. Clean](#)
+      
+=========================
+
 # Data-Wrangling
 Real-world data rarely comes clean. Using Python and its libraries, you will gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. This is called data wrangling. You will document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL. </br>
 
@@ -5,9 +23,17 @@ Data wrangling is the Process of **Gathering**, **Assessing** and **Cleaning** D
 
 ## Gathering
 Gathering data is the first step in data wrangling. Gathering data varies from project to project. Sometimes you're just given data, or pointed to it. Sometimes you need to search for the right data for your project. 
-### File Structure Types
 
-1. **Flat File Structure**
+### File Structure Formats
+- The followings are the common files
+    1. Flat files (e.g. CSV and TSV)
+    2. HTML files
+    3. JSON files
+    4. TXT files
+    5. Relational database files
+    
+#### Flat File Structure
+
 Flat files contain tabular data in plain text format with one data record per line and each record or line having one or more fields. These fields are separated by delimiters, like commas, tabs, or colons.
 
 **- Advantages of flat files include:**</br>
@@ -24,6 +50,32 @@ Flat files contain tabular data in plain text format with one data record per li
     
 Flat Files in Python
 Pandas has one main function for parsing flat files and it is read_csv.
+
+#### HTML File Structure/ Web Scraping
+Downloading Files from the Internet
+- The two main ways to work with HTML files are:
+    - Saving the HTML file to your computer (using the [Requests](https://2.python-requests.org//en/master/) library for example) library and reading that file into a [BeautifulSoup constructor](https://www.crummy.com/software/BeautifulSoup/)
+    - Reading the HTML response content directly into a BeautifulSoup constructor (again using the Requests library for example)
+
+**Beautiful Soup**
+- Beautiful Soup is a Python library designed for quick turnaround projects like screen-scraping. Three features make it powerful:
+    -Beautiful Soup provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree: a toolkit for dissecting a document and extracting what you need. It doesn't take much code to write an application
+    -Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8. You don't have to think about encodings, unless the document doesn't specify an encoding and Beautiful Soup can't detect one. Then you just have to specify the original encoding.
+    -Beautiful Soup sits on top of popular Python parsers like lxml and html5lib, allowing you to try out different parsing strategies or trade speed for flexibility.
+
+
+The first thing you need to do is to make the soap. That means passing the pathto your HTML file into a file handles, then passing that fikle into the Beatutful Soup constructor; after importing the Beautiful library. 
+'''from bs4 import BeautifulSoup
+with open(' ') as file:
+    soup = BeautifulSoup(file, 'lxml')  ''
+
+#### JSON files
+
+#### TXT files
+
+#### Relational database files
+
+---------------------------------------------------
 
 ## Assessing
 ### Properties of Data
@@ -48,6 +100,9 @@ TI am going to wrangle a dataset called **armenian-online-job-postings**. This d
     - Missing values (i.e. NaNs)
     - Inconsistent representations of values, specifically "As soon as possible" and other similar values to "ASAP" in the StartDate column for this dataset
     - A messy (i.e. untidy) dataset
+
+
+--------------------------------------------------------
 
 ## Cleaning: Improving Quality and Tidiness
 **Improving Tidiness**
