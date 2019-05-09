@@ -52,7 +52,7 @@ Flat Files in Python
 Pandas has one main function for parsing flat files and it is read_csv.
 
 #### HTML File Structure/ Web Scraping
-Downloading Files from the Internet
+**Web Scraping** is extracting data from website using code. This data is stored in a format called HTML. There are two ways, and they are done programmatically which is best for scalability and reproducibility. </br> 
 - The two main ways to work with HTML files are:
     - Saving the HTML file to your computer (using the [Requests](https://2.python-requests.org//en/master/) library for example) library and reading that file into a [BeautifulSoup constructor](https://www.crummy.com/software/BeautifulSoup/)
     - Reading the HTML response content directly into a BeautifulSoup constructor (again using the Requests library for example)
@@ -65,6 +65,8 @@ Downloading Files from the Internet
 
 
 The first thing you need to do is to make the soap. That means passing the pathto your HTML file into a file handles, then passing that fikle into the Beatutful Soup constructor; after importing the Beautiful library. 
+</br>
+Here is the Code...
 ```
 from bs4 import BeautifulSoup
 
@@ -73,7 +75,9 @@ with open("index.html") as file:
 
 soup = BeautifulSOup(""<html>data</html>)
 
-```    
+``` 
+
+This is a ode to download one file. To download all files, we need to put this code in a loop
 
 #### JSON files
 
