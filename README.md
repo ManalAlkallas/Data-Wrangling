@@ -77,7 +77,7 @@ soup = BeautifulSOup(""<html>data</html>)
 
 ``` 
 
-This is a ode to download one file. To download all files, we need to put this code in a loop
+This is a code to download one file. To download all files, we need to put this code in a loop. See ![Loop.ipynb](loop.ipynb) 
 
 #### JSON files
 
