@@ -79,6 +79,14 @@ soup = BeautifulSOup(""<html>data</html>)
 
 This is a code to download one file. To download all files, we need to put this code in a loop. See ![Loop.ipynb](loop.ipynb) 
 
+**Source: Downloading Files from the Internet**</br>
+**HTTP**, the Hypertext Transfer Protocol, is the language that web browsers (like Chrome or Safari) and **web servers** (basically computers where the contents of a website are stored) speak to each other. Every time you open a web page, or download a file, or watch a video, it's HTTP that makes it possible.</br>
+
+- HTTP is a request/response protocol:
+     1- Your computer,i.e the client, sends a request to a server for some file. **GET** is the name of the HTTP **request** method (of which there are multiple) used for retrieving data.
+     2- The web server sends back a response. 
+
+
 #### JSON files
 
 #### TXT files
