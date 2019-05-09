@@ -1,3 +1,4 @@
+
 ## Table of Content
 
 - <b>Data-Wrangling</b>
@@ -83,11 +84,22 @@ This is a code to download one file. To download all files, we need to put this 
 **HTTP**, the Hypertext Transfer Protocol, is the language that web browsers (like Chrome or Safari) and **web servers** (basically computers where the contents of a website are stored) speak to each other. Every time you open a web page, or download a file, or watch a video, it's HTTP that makes it possible.</br>
 
 - HTTP is a request/response protocol:
-     1- Your computer,i.e the client, sends a request to a server for some file. **GET** is the name of the HTTP **request** method (of which there are multiple) used for retrieving data.
-     2- The web server sends back a response. 
+   - Your computer,i.e the client, sends a request to a server for some file. **GET** is the name of the HTTP **request** method (of which there are multiple) used for retrieving data.
+   - The web server sends back a response. 
 
 
 #### JSON files
+- JSON is specially great for respresenting and accessing complicated data hierarchies. JSON is build on two key structures:
+   - JSON Object: which are a collection of key value pairs. Objects are surrounded by curly braces{}. In Python, JSON objects are interpreted as Dictionaries. 
+   - JSON Array: which is an ordered list of values. Square brackets denote an array[]
+   
+**JSON object keys must be strings. The values for both JSON objects and arrays can be any valid JSON data Type (a string, number, Boolean, object, array or null )**
+   
+```
+JSON arrays  - Python lists
+JSON objects - Python dictionaries
+```
+   
 
 #### TXT files
 
