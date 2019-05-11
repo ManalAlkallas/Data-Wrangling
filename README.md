@@ -110,12 +110,12 @@ JSON objects - Python dictionaries
 ## Assessing
 ### Properties of Data
 1. **Quality**:  (content issues) Low quality data is commonly referred to as dirty data. Dirty data has issues with its content.
-    - Common data quality issues include:
-      1. Missing data
-      2. Invalid data
-      3. Duplicate data
-      4. Inaccurate data
-      5. Corrupted data
+    - Data Quality Dimenions: 
+      1. Completeness: do we have all of the records that we should? Do we have missing records or not? Are there specific rows, columns, or cells missing?
+      2. Validity: we have the records, but they're not valid, i.e., they don't conform to a defined schema. A schema is a defined set of rules for data. These rules can be real-world constraints (e.g. negative height is impossible) and table-specific constraints (e.g. unique key constraints in tables).
+      3. Accuracy: inaccurate data is wrong data that is valid. It adheres to the defined schema, but it is still incorrect. Example: a patient's weight that is 5 lbs too heavy because the scale was faulty.
+      4. Consistency: inconsistent data is both valid and accurate, but there are multiple correct ways of referring to the same thing. Consistency, i.e., a standard format, in columns that represent the same data across tables and/or within tables is desired.
+  
 
 2. **Tidiness**: (i.e. structural issues) or "messy" data. Messy data has issues with its structure.</br>
    Tidy Data means: 
