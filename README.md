@@ -109,14 +109,20 @@ JSON objects - Python dictionaries
 
 ## Assessing
 ### Properties of Data
-1. **Quality**:  Low quality data is commonly referred to as dirty data. Dirty data has issues with its content.
+1. **Quality**:  (content issues) Low quality data is commonly referred to as dirty data. Dirty data has issues with its content.
     - Common data quality issues include:
       1. Missing data
       2. Invalid data
-      3. Inaccurate data
-      4. Inconsistent data
+      3. Duplicate data
+      4. Inaccurate data
+      5. Corrupted data
 
-2. **Tidiness**: Untidy data is commonly referred to as "messy" data. Messy data has issues with its structure.</br>
+2. **Tidiness**: (i.e. structural issues) or "messy" data. Messy data has issues with its structure.</br>
+   Tidy Data means: 
+         - Each variable forms acolumn
+         - Each observation forms a row
+         - Each observational unit forms a table
+         
     [More information about Tidy Data](http://www.jeannicholashould.com/tidy-data-in-python.html)</br>
     [Jeff Leek: Non-tidy data](https://simplystatistics.org/2016/02/17/non-tidy-data/)
 
