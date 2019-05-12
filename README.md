@@ -87,6 +87,8 @@ This is a code to download one file. To download all files, we need to put this 
    - Your computer,i.e the client, sends a request to a server for some file. **GET** is the name of the HTTP **request** method (of which there are multiple) used for retrieving data.
    - The web server sends back a response. 
 
+**Source: APIs (Application Programming Interfaces)**</br>
+API can let you access data from the internet in a reasonably easy manner. TWitter, Facebook, Insttttagram all have APIs. There are tons of open sources APIs. [MediaWiki](https://www.mediawiki.org/wiki/API:Main_page#A_simple_example), which is a popular API for Wikipedia, is open source.
 
 #### JSON files
 - JSON is specially great for respresenting and accessing complicated data hierarchies. JSON is build on two key structures:
