@@ -143,6 +143,8 @@ TI am going to wrangle a dataset called **armenian-online-job-postings**. This d
 --------------------------------------------------------
 
 ## Cleaning: Improving Quality and Tidiness
+
+Cleaning your data is the third step in data wrangling. It is where you fix the quality and tidiness issues that you identified in the assess step. In this lesson, you'll clean all of the issues you identified in Lesson 3 using Python and pandas.
 **Improving Tidiness**
 Improving tidiness means transforming the dataset so that each variable is a column, each observation is a row, and each type of observational unit is a table. There are special functions in pandas that help us do that.
 **Programmatic Data Cleaning Process**
