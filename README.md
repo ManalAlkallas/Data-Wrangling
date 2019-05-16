@@ -144,15 +144,23 @@ TI am going to wrangle a dataset called **armenian-online-job-postings**. This d
 
 ## Cleaning: Improving Quality and Tidiness
 
-Cleaning your data is the third step in data wrangling. It is where you fix the quality and tidiness issues that you identified in the assess step. In this lesson, you'll clean all of the issues you identified in Lesson 3 using Python and pandas.
-**Improving Tidiness**
-Improving tidiness means transforming the dataset so that each variable is a column, each observation is a row, and each type of observational unit is a table. There are special functions in pandas that help us do that.
-**Programmatic Data Cleaning Process**
-- The programmatic data cleaning process:
-    - **Defining** means defining a data cleaning plan in writing, where we turn our assessments into defined cleaning tasks. This plan will also serve as an instruction list so others (or us in the future) can look at our work and reproduce it.
-    - **Coding** means translating these definitions to code and executing that code.
-    - **Testing** means testing our dataset, often using code, to make sure our cleaning operations worked.
-    
+Cleaning your data is the third step in data wrangling. It is where you fix the quality and tidiness issues that you identified in the assess step. </br>
+**- Data Cleaning Process**
+ The very first thing to do before any cleaning occurs is to make a **copy** of each piece of data.
+      ```
+      df_clean = df.copy()
+      ```
+**- Programmatic Data Cleaning Process**      
+   1. **Define**  means defining a data cleaning plan in writing, where we turn our assessments into defined cleaning tasks. This plan will also serve as an instruction list so others (or us in the future) can look at our work and reproduce it.
+   2. **Coding** means translating these definitions to code and executing that code.
+   3. **Testing** means testing our dataset, often using code, to make sure our cleaning operations worked.
+   
+**- Logical steps for data cleaning**
+      1. Address Data Quality
+      **Completeness Issues**: to find the missing data if possible. **Imputing** means filling in missing data values with other values, using some appropriate method. Here is more information on the topic of imputation: [Wikipedia: Imputation](https://en.wikipedia.org/wiki/Imputation_(statistics))
+      2. **Tidiness** (Structure issue): Improving tidiness means transforming the dataset so that each variable is a column, each observation is a row, and each type of observational unit is a table. 
+      3. **Quality**
+  
    [Data Carpentry: Copying Objects vs. Referencing Objects in Python](https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/)
 
 # Wrangling vs. EDA vs. ETL
